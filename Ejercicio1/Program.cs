@@ -7,7 +7,7 @@ namespace Ejercicio1
         static void Main(string[] args)
         {
             Facade facade = new Facade();
-            facade.IniciarPrograma();
+            facade.IniciarPrograma(); //Iniciar programa
         }
     }
 }
