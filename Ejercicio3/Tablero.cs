@@ -138,7 +138,7 @@ namespace Ejercicio3
                             {
                                 case 1:
                                     Console.Clear();
-                                    Console.WriteLine("                               HASTA EL COGOTE: EL JUEGO                  ");
+                                    Console.WriteLine("                                   AHORCADO: EL JUEGO                  ");
                                     Console.WriteLine("");
                                     Console.WriteLine("");
                                     Console.Write("                          Cantidad de intentos permitidos: ");
@@ -162,7 +162,7 @@ namespace Ejercicio3
         public void PantallaInicial()
         {
             Console.Clear();
-            Console.WriteLine("                               HASTA EL COGOTE: EL JUEGO                  ");
+            Console.WriteLine("                                   AHORCADO: EL JUEGO                  ");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("                                   1.Iniciar partida                      ");
@@ -186,7 +186,7 @@ namespace Ejercicio3
         public void PantallaNombre()
         {
             Console.Clear();
-            Console.WriteLine("                               HASTA EL COGOTE: ELJUEGO                  ");
+            Console.WriteLine("                                   AHORCADO: EL JUEGO                  ");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.Write("                           Nombre del jugador: ");
@@ -195,7 +195,7 @@ namespace Ejercicio3
         public void PantallaIniciarPartida()
         {
             Console.Clear();
-            Console.WriteLine("                               HASTA EL COGOTE: ELJUEGO                  ");
+            Console.WriteLine("                                   AHORCADO: EL JUEGO                  ");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.Write("                             Palabra: " + this.DibujarPalabra(this.EstadoPalabra));
@@ -210,7 +210,7 @@ namespace Ejercicio3
         public void PantallaAjustes()
         {
             Console.Clear();
-            Console.WriteLine("                               HASTA EL COGOTE: EL JUEGO                  ");
+            Console.WriteLine("                                   AHORCADO: EL JUEGO                  ");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("                           1.Modificar cantidad de intentos               ");
@@ -221,7 +221,7 @@ namespace Ejercicio3
         public void PantallaMejoresTiempos()
         {
             Console.Clear();
-            Console.WriteLine("                               HASTA EL COGOTE: EL JUEGO                  ");
+            Console.WriteLine("                                   AHORCADO: EL JUEGO                  ");
             Console.WriteLine("");
             Console.WriteLine("");
             for (int i = CantidadGuardados - 1; i >= 0; i--)

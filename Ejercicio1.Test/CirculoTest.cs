@@ -7,7 +7,7 @@ namespace Ejercicio1.Test
     public class CirculoTest
     {
         [Fact]
-        public void Test_Area()
+        public void Test_Circulo_Area()
         {
             //Preparacion
             var circulo = new Circulo(0,0,10);
